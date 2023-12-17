@@ -1,0 +1,53 @@
+.SectionContainer_0{
+    min-height: 200px;
+    background-image: url(../../../public/assets/img_220011/stats_bg.png);
+    text-align: center;
+    padding: 3em 1.2em;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+}
+.SectionContainer_0 > h2{
+    font-size: 1.3rem;
+    font-weight: 900;
+
+
+}
+.SectionContainer_0  ul{
+    padding: 0.8em 0;
+    display: flex;
+    flex-direction: column;
+}
+.SectionContainer_0 ul li{
+margin: 0.5em 0;
+}
+.SectionContainer_0 ul  h3{
+font-size: 1.1rem;
+font-weight: 700;
+}
+.SectionContainer_0 ul p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    /* opacity: 0.8; */
+    color: transparent;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-image: var(--grad-0);
+}
+@media screen and (min-width:768px) {
+    .SectionContainer_0 ul{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0em 3em ;
+    }
+    .SectionContainer_0 ul h3{
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+    .SectionContainer_0 ul p{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+}

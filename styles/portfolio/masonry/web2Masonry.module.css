@@ -1,0 +1,16 @@
+.Masonry{
+    padding: 12em 0;
+    
+}
+.Images{
+    height: 100%;
+    cursor:zoom-in;
+
+}
+.Images:hover{
+transform: scale(1.2);
+transition: transform 0.5s ease-out;
+}
+.Images img{
+    height: 100%;
+}

@@ -1,0 +1,61 @@
+
+.innerUl li a{
+    display: flex;
+    width: 100%;
+    padding: 1em 0 ;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+
+
+.innerUl li:nth-child(1) a:hover{
+    border-left:30px solid #0AFAFA;
+    color: #0AFAFA !important;
+    padding-left: 1em;
+    transition-duration: 0.4s;
+    background-color: #333333;
+}
+.innerUl li:nth-child(2) a:hover{
+    border-left:30px solid #fa0a0a;
+    color: #fa0a0a !important;
+    padding-left: 1em;
+    transition-duration: 0.4s;
+    background-color: #333333;
+}
+.innerUl li:nth-child(3) a:hover{
+    border-left:30px solid #16fa0a;
+    color: #16fa0a !important;
+    padding-left: 1em;
+    transition-duration: 0.4s;
+    background-color: #333333;
+}
+.innerUl li:nth-child(4) a:hover{
+    border-left:30px solid #a60afa;
+    color: #a60afa !important;
+    padding-left: 1em;
+    transition-duration: 0.4s;
+    background-color: #333333;
+}
+.innerUl li:nth-child(5) a:hover{
+    border-left:30px solid #fa0af6;
+    color: #fa0af6 !important;
+    padding-left: 1em;
+    transition-duration: 0.4s;
+    background-color: #333333;
+}
+.innerUl li:nth-child(6) a:hover{
+    border-left:30px solid #ffffff;
+    color: #ffffff !important;
+    padding-left: 1em;
+    transition-duration: 0.4s;
+    background-color: #333333;
+}
+.ContactLink{
+    border-radius: 11px;
+    background: linear-gradient(90deg, #178DF9 0%, #0AFAFA 100%);
+    font-size: 15px;
+    padding: 0.6em 2em;
+}

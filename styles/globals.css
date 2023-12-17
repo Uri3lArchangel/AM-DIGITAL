@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes portfolio-bc-hover-btn {
+    from{
+        top: 100%;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        top: 70%;
+    }
+}
+.ai{
+    background-image: url('../public/assets/img_220011/vector_ai.png') !important; 
+}
+:root{
+    text-transform: uppercase;
+    --dark-blue-0:#178DF9;
+    --light-blue-0:#0AFAFA;
+    --grad-0:linear-gradient(to right,#178DF9,30%,#0AFAFA);
+
+}
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.active-bc-btn{
+   animation-name: portfolio-bc-hover-btn;
+   animation-duration: 1.3s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+   filter: blur(-5px);
+
+}
+.active-nav-full-width{
+    width: 100%;
+}
+#imge_viewer{
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width:640px) {
+    
+.ant-carousel .slick-prev,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-prev:focus {
+  transform: scale(3);
+  left: 10px;
+  z-index: 2;
+  color: white;
+}
+
+.ant-carousel .slick-next,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-next:focus {
+  transform: scale(3);
+  right: 10px;
+  z-index: 2;
+  color: white;
+}
+}

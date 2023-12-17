@@ -1,0 +1,13 @@
+.asideContainer_0 li{
+border-bottom: 1px solid #0003;
+margin: 0.8em 0;
+padding: 0.9em 0;
+
+}
+.asideContainer_0 button a{
+    display: block;
+    border-radius: 11px;
+    background: linear-gradient(90deg, #178DF9 0%, #0AFAFA 100%);
+    flex-shrink: 0;
+    padding: 1em 2em;
+}

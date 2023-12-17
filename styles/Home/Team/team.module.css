@@ -1,0 +1,68 @@
+.SectionContainer_0{
+    min-height: 800px;
+    background-image: url(../../../public/assets/img_220011/team_bg.png);
+    color: #fff;
+    background-size: 150% 130%;
+     background-repeat: no-repeat;
+     background-position: center;
+    text-align: center;
+    padding: 6em 0.8em;
+} 
+.SectionContainer_0 h3{
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.SectionContainer_0 ul{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 2em 0;
+width: 100%;
+color: #fffa;
+}
+.SectionContainer_0 li{
+    margin: 1.4em 0;
+    max-width: 400px;
+    filter: brightness(0.8) grayscale();
+transition: all 0.2s ease-in;
+
+}
+.SectionContainer_0 li:hover{
+    transition: all 0.2s ease-out;
+    filter: brightness(1.1);
+    transform: scale(1.08);
+}
+.SectionContainer_0 li h4{
+font-size: 1.15rem;
+font-weight: 800;
+color: #fff;
+line-break: normal;
+}
+.SectionContainer_0 button a{
+    display: block;
+    border-radius: 11px;
+    background: linear-gradient(90deg, #178DF9 0%, #0AFAFA 100%);
+    flex-shrink: 0;
+    padding: 1em 2em;
+    color: #000;
+}
+.SectionContainer_0 img{
+    /* border: 1px solid #fff;  */
+    padding: 0.5em;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+
+@media screen and (min-width:1024px) {
+    .SectionContainer_0 ul{
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        gap: 0 0.5em;
+    }
+    .SectionContainer_0 li{
+    width: 450px;
+    }
+}

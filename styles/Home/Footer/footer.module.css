@@ -1,0 +1,63 @@
+.footerContainer_0{
+    height: fit-content;
+    background-image:linear-gradient(#22537e,#081d2f) ;
+    text-align: center;
+}
+.h4Text_1{
+    background: linear-gradient(90deg, #38BAFF 0%, #0AFAFA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (min-width:1024px) {
+    .footerContainer_0{
+        display: grid;
+        grid-template-areas: 
+        "left left left bottom bottom" 
+        "left left left bottom bottom"
+        "top top top bottom bottom"
+        "top top top bottom bottom"
+        "legal legal legal legal legal"
+        ;
+    
+    } 
+    .footerContainer_0 > div:nth-child(1){
+        grid-area: left;
+        text-align: left;
+        width: 70%;
+    
+    }   
+
+    .footerContainer_0 > div:nth-child(1) img{
+        width: 65px;
+    }
+    .footerContainer_0 > div:nth-child(1) h4{
+        font-size: 1.8rem;
+    }
+    .footerContainer_0 > div:nth-child(1){
+       display: block;
+    } 
+    .footerContainer_0 > div:nth-child(1) ul li{
+        margin: 1em 0;
+        text-decoration: underline;
+    }
+    .footerContainer_0 > div:nth-child(1) > ul{
+        grid-area: top;
+        margin: 3em 0 0 0 ;
+    }
+    .SectionRight > div{
+        grid-area: bottom;
+        height: 100%;
+        width: 100%;
+        margin: 0.6em 0;
+        padding: 0;
+        display: flex;
+        text-align: right;
+        flex-direction: column;
+        align-items:flex-end;
+   }
+    .footerContainer_0 > div:nth-child(3){
+    grid-area: legal;
+    border-top: 1px solid #fff2;
+    }
+}

@@ -1,0 +1,77 @@
+.SectionContainer_0{
+background-image: url(../../../public/assets/img_220011/technology-abstract-background-with-particle-lines.jpg);
+background-size: 300% 100%;
+background-repeat: no-repeat;
+background-position: center;
+padding: 3em 0;
+
+}
+.SectionContainer_0 article{
+    color: white;
+    padding: 2em 0.5em;
+    border-radius: 8px;
+    position: relative;
+    width: 100%;
+    margin: 2em auto;
+    max-width: 450px;
+}
+
+.SectionContainer_0 article  p{
+    border-radius: 5px;
+    padding: 0.5em 0.3em;
+    margin: 0.5em 0;
+    font-size: 15px;
+}
+.SectionContainer_0 img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -25px;
+    right: -5px;
+}
+.SectionContainer_0 button a{
+    display: block;
+    border-radius: 11px;
+    background: linear-gradient(90deg, #178DF9 0%, #0AFAFA 100%);
+    flex-shrink: 0;
+    padding: 1em 2em;
+}
+@media screen and (min-width:640px) {
+    .SectionContainer_0 img{
+    width: 150px;
+    height: 150px;
+    position: unset;
+
+    }
+    .SectionContainer_0 article{
+    max-width: 700px;
+  
+    
+    }
+    .SectionContainer_0 figure{
+        display: grid;
+        grid-template-areas: 
+        "img name"
+        "img title"
+        "img review"
+        ;
+        justify-content: start;
+        gap: 0.3em 1em;
+    }
+    .SectionContainer_0 article img{
+        grid-area: img;
+    }
+    .SectionContainer_0 article figcaption{
+        grid-area: name;
+
+    }
+    .SectionContainer_0 article div{
+        grid-area: title;
+
+    }
+    .SectionContainer_0 article p{
+        grid-area: review;
+
+    }
+}
