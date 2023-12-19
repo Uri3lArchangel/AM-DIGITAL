@@ -40,7 +40,7 @@ const SlidingDIsplay = () => {
         <Image src={react} alt='react js logo'/>
         </div>
         <div>
-        <Image layout='intrinsic' src={rn} alt='react native logo'/>
+        <Image src={rn} alt='react native logo'/>
         </div>
         <div>
         <Image  src={mysql} alt='mysql logo'/>

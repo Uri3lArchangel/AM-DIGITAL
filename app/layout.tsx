@@ -22,7 +22,7 @@ export default function RootLayout({
      
       <body className={monst.className}>
       <Nav_Footer_Layout>
-       <div className='absolute w-[85%] md:w-[80%] right-0'>{children}    
+       <div className='absolute w-[100%] md:w-[80%] right-0 overflow-x-hidden'>{children}    
        <Footer />
         </div> 
       </Nav_Footer_Layout>

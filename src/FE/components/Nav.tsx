@@ -25,13 +25,13 @@ const Nav = () => {
 
   return (
     <> 
-      <nav  id="nav_bar_main" className="fixed h-full w-[15%] md:w-[20%] top-0 z-20 pl-2 text-white bg-black">
+      <nav  id="nav_bar_main" className="fixed pr-2 md:pr-0 h-fit w-full md:w-[20%] md:block md:h-full top-0 z-20 pl-2 text-white bg-black">
         <ul
           className={
-            " flex flex-col items-start "
+            " flex md:flex-col justify-between items-center md:items-start  "
           }
         >
-          <li className="w-12 md:w-20 my-4 border-2 border-white rounded-full">
+          <li className="w-12 md:w-16 my-4 border-2 border-white rounded-full">
             <Link href="/">
               <Image
                 src={logo}
@@ -42,7 +42,7 @@ const Nav = () => {
           </li>
           <ul id="navLinksUl"
             className={
-              "hidden md:flex md:flex-col text-[13px] w-full  " +
+              "hidden md:flex md:flex-col text-[13px] w-full my-8 " +
               nav.innerUl
             }
           >
@@ -69,25 +69,19 @@ const Nav = () => {
               <Link href="/services" >
               <MdMiscellaneousServices className="mx-2" size={20} />
                 <span>SERVICES</span>
-               
               </Link>
             </li>
             <li id="fifthNavLink" >
               <Link href="/support">
-              <MdOutlineSupportAgent className="mx-2" size={20} />
-
-                <span>SUPPORT</span>
-              </Link>
-            </li>
-            <li id="sixthNavLink" >
-              <Link href="/about">
-           <FaVault className="mx-2" size={20} />
-
-                
-                <span>VAULT</span>
-              </Link>
-            </li>
-             
+   <MdOutlineSupportAgent className="mx-2" size={20} />
+ <span>SUPPORT</span>
+ </Link></li>
+        <li id="sixthNavLink" >
+          <Link href="/vault">
+          <FaVault className="mx-2" size={20} />
+          <span>VAULT</span>
+        </Link>
+        </li>
           </ul>
           <li className="md:hidden">
             <AiOutlineMenu
@@ -97,9 +91,8 @@ const Nav = () => {
             />
           </li>
           <Link className={"hidden md:block text-black mt-12 "+nav.ContactLink} href="/contact">
-                CONTACT US
-                <span></span>
-              </Link>
+            CONTACT US
+          </Link>
         </ul>
       </nav>
       <DrawerApp
