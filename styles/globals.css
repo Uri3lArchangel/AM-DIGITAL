@@ -11,9 +11,9 @@
         top: 70%;
     }
 }
-.ai{
+/* .ai{
     background-image: url('../public/assets/img_220011/vector_ai.png') !important; 
-}
+} */
 :root{
     text-transform: uppercase;
     --dark-blue-0:#178DF9;

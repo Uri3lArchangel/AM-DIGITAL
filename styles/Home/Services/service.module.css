@@ -1,35 +1,42 @@
 .SectionContainer_0{
     min-height: 1000px;
+    background-color: black;
     /* background-image: url('../../../public/assets/img_220011/bg-white-design.png'); */
     background-position: center;
     background-size: 300% 100%;
 }
 .DivCard_1{
     width: 90%;
-background-color: white;
-background-image: url('../../../public/assets/img_220011/vector_sol.png');
+background-color: transparent;
+border: 3px solid #4448;
+border-radius: 10px;
+
 background-position: bottom;
 background-repeat: no-repeat;
 background-size: 100% 60%;
 padding: 6em 2em;
-min-height: 545px;
+height: fit-content;
 margin: 4em auto;
-box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.25);
+box-shadow: 2px 2px 20px 0px #00fbff66;
 line-break: strict;
 }
 
 .DivCard_1 h2{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 900;
+    color: white;
 
 }
 .DivCard_1 p{
     line-height: 32px;
+    -webkit-background-clip: text;
+background-image: linear-gradient(to right,#178DF9,20%,#00fbff,92%,#bb00ff);
+color: transparent;
 }
 .SectionContainer_0 button a{
     display: block;
     border-radius: 11px;
-    background: linear-gradient(90deg, #178DF9 0%, #0AFAFA 100%);
+    background: linear-gradient(90deg, #178DF9 0%, #0AFAFA, 100%);
     flex-shrink: 0;
     padding: 1em 2em;
 }
@@ -38,6 +45,13 @@ line-break: strict;
     .DivCard_1{
         width:400px;
         margin: 3em 1.5em;
+        height: 600px;
+    }
+    .DivCard_1 h2{
+        font-size: 22px;
+        font-weight: 900;
+        color: white;
+    
     }
     .innerDivCardsContainer{
         padding: 0 2em;

@@ -40,7 +40,6 @@ function Section1_Service() {
             <p className='my-4'>
             WE DESIGN LOGOS, FLYERS DESIGNS AND BROCHURE, SOCIAL MEDIA COVER, INFOGRAPHICS DESIGN, STREAMERS BANNER INTRO AND OUTRO DESIGNS<br />
             <br />
-               <span className='font-bold'># PYTHON BASED  <br /> #JAVASCRIPT / TYPESCRIPT BASED <br /> #DART BASED (FLUTTER)</span> 
             </p>
             
         </article>
