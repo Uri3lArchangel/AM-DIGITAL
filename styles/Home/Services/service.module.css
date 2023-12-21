@@ -1,3 +1,5 @@
+
+
 .SectionContainer_0{
     min-height: 1000px;
     background-color: black;
@@ -10,7 +12,7 @@
 background-color: transparent;
 border: 3px solid #4448;
 border-radius: 10px;
-
+position: relative;
 background-position: bottom;
 background-repeat: no-repeat;
 background-size: 100% 60%;
@@ -58,6 +60,16 @@ color: transparent;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .innerBorderLiner{
+    position: absolute;
+    left: 0;
+    width: 0%;
+    height: 10%;
+    /* border: 10px solid red; */
+    animation-name: borderFlow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
     }
 }
 
