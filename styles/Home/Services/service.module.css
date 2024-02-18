@@ -1,75 +1,38 @@
-
-
-.SectionContainer_0{
-    min-height: 1000px;
-    background-color: black;
-    /* background-image: url('../../../public/assets/img_220011/bg-white-design.png'); */
-    background-position: center;
-    background-size: 300% 100%;
-}
-.DivCard_1{
-    width: 90%;
-background-color: transparent;
-border: 3px solid #4448;
-border-radius: 10px;
-position: relative;
-background-position: bottom;
-background-repeat: no-repeat;
-background-size: 100% 60%;
-padding: 6em 2em;
-height: fit-content;
-margin: 4em auto;
-box-shadow: 2px 2px 20px 0px #00fbff66;
-line-break: strict;
-}
-
-.DivCard_1 h2{
-    font-size: 20px;
-    font-weight: 900;
+.innerDiv{
     color: white;
+}
+.topContainer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    gap: 2em;
+}
+.leftImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(3, 3, 197);
+}.rightContent{
+    width: 400px;
 
 }
-.DivCard_1 p{
-    line-height: 32px;
-    -webkit-background-clip: text;
-background-image: linear-gradient(to right,#178DF9,20%,#00fbff,92%,#bb00ff);
-color: transparent;
+.bottomContainer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    gap: 2em;
+    justify-content: flex-end;
 }
-.SectionContainer_0 button a{
-    display: block;
-    border-radius: 11px;
-    background: linear-gradient(90deg, #178DF9 0%, #0AFAFA, 100%);
-    flex-shrink: 0;
-    padding: 1em 2em;
-}
+.rightImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}.leftContent{
+    width: 400px;
 
-@media screen and (min-width:640px) {
-    .DivCard_1{
-        width:400px;
-        margin: 3em 1.5em;
-        height: 600px;
-    }
-    .DivCard_1 h2{
-        font-size: 22px;
-        font-weight: 900;
-        color: white;
-    
-    }
-    .innerDivCardsContainer{
-        padding: 0 2em;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .innerBorderLiner{
-    position: absolute;
-    left: 0;
-    width: 0%;
-    height: 10%;
-    /* border: 10px solid red; */
-    animation-name: borderFlow;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    }
 }
-
+.innerDiv{
+    padding: 4em 0;
+}

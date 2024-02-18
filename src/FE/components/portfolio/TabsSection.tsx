@@ -4,6 +4,7 @@ import { TabsProps } from "antd";
 import BlockchainProjectsDisplay from "./blockchain/BlockchainProjectsDisplay";
 import Web2Projects from "./web2/Web2Projects";
 import Web2ProjectsMain from "../subcomponents/Web2ProjectsMain";
+import GraphicsCarousel from './graphics/GraphicsCarousel'
 
 const items: TabsProps["items"] = [
   {
@@ -46,7 +47,7 @@ const items: TabsProps["items"] = [
         Graphics
       </button>
     ),
-    children: "Content of Tab Pane 3",
+    children: <GraphicsCarousel />,
   },
 ];
 

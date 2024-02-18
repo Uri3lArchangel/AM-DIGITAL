@@ -62,3 +62,27 @@ a{
   color: white;
 }
 }
+#shield{
+    background-image: url(../public/assets/img_220011/shild.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#seo{
+    background-image: url(../public/assets/img_220011/seo.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+#testing{
+    background-image: url(../public/assets/img_220011/testing.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+#advice{
+    background-image: url(../public/assets/img_220011/advice.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
